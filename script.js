@@ -9,5 +9,5 @@ function insert_Row() {
    let tr1=document.createElement("tr");
    tr1.appendChild(td1);
    tr1.appendChild(td2);
-   table.insertBefore(tr1,table.firstChild);
+   table.insertBefore(tr1,table.firstElementChild);
 }
